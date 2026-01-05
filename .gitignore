@@ -1,0 +1,4 @@
+#Buils an temporals
+build/
+*.jar
+*.exe
