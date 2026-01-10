@@ -3,6 +3,10 @@ Given an integer array nums,
 return true if any value appears 
 more than once in the array, 
 otherwise return false.
+
+[1,2,3,3]
+
+
 */
 
 #include <bits/stdc++.h>
@@ -34,7 +38,7 @@ int main()
 {
     Solution solution;
 
-    vector<int> nums = {1,2,3,4};
+    vector<int> nums = {1,2,3,3};
 
     bool result = solution.hasDuplicate(nums);
     cout << (result ? "True " : "False") << "\n";
