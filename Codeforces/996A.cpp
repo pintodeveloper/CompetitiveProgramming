@@ -18,7 +18,7 @@ int main()
 
     for(int d: denominations){
         bills += n / d;
-        cout<<"Este es el valor de Bills"<<bills<<"\n";
+        //cout<<"Este es el valor de Bills"<<bills<<"\n";
         // bills += 43 / 100
         n%=d;
     }
