@@ -1,13 +1,7 @@
 n = int(input())
 
-a=0
-b=0
-c=0
-
-for _ in n:
-    a = int(input())
-    b = int(input())
-    c = int(input())
+for _ in range(n):
+    a,b,c = map(int, input().split())
     
     if a+b == c:
         print("YES")
@@ -17,3 +11,7 @@ for _ in n:
         print("YES")
     else:
         print("NO")
+
+
+
+
