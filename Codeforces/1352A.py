@@ -15,3 +15,6 @@ for _ in range(t):
     
     print(len(parts))
     print(*parts)
+    
+    
+    
