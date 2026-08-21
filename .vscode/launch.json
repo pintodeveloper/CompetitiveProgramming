@@ -5,6 +5,7 @@
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
+      "preLaunchTask": "C/C++: g++.exe build active file",
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
